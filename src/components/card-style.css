@@ -1,0 +1,21 @@
+.cd {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  margin-left: 10px;
+}
