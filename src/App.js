@@ -48,13 +48,13 @@ export default function App() {
     return data.map((item, index) => {
       const {author, title, description, url: pageUrl, urlToImage, publishedAt} = item;
       return (
-        <Card key={`key ${index}`}>
-          <h1>
+        <Card key={`key_${index}`}>
+          <h1 id="title">
             <b>{title}</b>
           </h1>
           <main className="item-container">
             <section>
-              <img src={urlToImage} height="200px" width="250px" alt={`${title}_image`}/>
+              <img id="poster" src={urlToImage} height="200px" width="250px" alt={`${title}_image`}/>
             </section>
             <aside>
               <p>{description}</p>
